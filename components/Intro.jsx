@@ -43,7 +43,7 @@ export default function Intro() {
             <div className='flex   items-center justify-center px-4 flex-wrap'>
               <p className='px-2  text-gray-600'>Software</p>
               <p className='px-2  text-gray-600'>Marketing</p>
-              <p className='px-2  text-gray-600'>UI/UX Design</p>
+              <p className='px-2  text-gray-600'>IT</p>
             </div>
           </div>
         </div>
