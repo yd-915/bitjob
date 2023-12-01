@@ -57,7 +57,7 @@ export default function Home() {
         isLoading ? (
           <div className='bg-gray w-full h-screen flex items-center flex-col justify-center'>
             <InfinitySpin width='200' color="#E55C46" />
-            <p className='text-xs uppercase'>Loading Resources Hold Tight...</p>
+            <p className='text-xs uppercase'>Loading...</p>
           </div>
         ) : (
           <>
