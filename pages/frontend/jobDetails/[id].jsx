@@ -77,7 +77,7 @@ export default function JobDetails() {
             {
                 isLoading ? (
                     <div className='bg-gray w-full h-screen flex items-center flex-col justify-center'>
-                        <InfinitySpin width='200' color="#4f46e5" />
+                        <InfinitySpin width='200' color="#E55C46" />
                         <p className='text-xs uppercase'>Loading Resources Hold Tight...</p>
                     </div>
                 ) : (
@@ -85,7 +85,7 @@ export default function JobDetails() {
                         <ToastContainer />
                         <NavBar />
                         <div className='w-full  py-20 flex items-center md:px-8 px-2  justify-center flex-col  '>
-                            <div className='w-full h-40 bg-gray-50 text-indigo-600 font-bold flex items-center justify-center flex-col'>
+                            <div className='w-full h-40 bg-gray-50 text-orange-600 font-bold flex items-center justify-center flex-col'>
                                 <h1 className='text-3xl'>Job Details</h1>
                             </div>
                             <div className='flex items-center  justify-center w-full py-10'>
@@ -102,36 +102,36 @@ export default function JobDetails() {
                                         <div className='flex items-center justify-center mb-1'>
                                             <FaUserAstronaut className='text-xs font-semibold text-indigo-600' />
                                             <p className='font-semibold text-base mx-1'>Job Poster </p>
-                                            <p className=' text-sm text-gray-800 mx-1'>{JobDetails?.user?.name}</p>
+                                            <p className=' text-sm text-black-800 mx-1'>{JobDetails?.user?.name}</p>
                                         </div>
                                         <div className='flex items-center justify-center mb-1'>
                                             <MdEmail className='text-xs font-semibold text-indigo-600' />
                                             <p className='font-semibold text-base mx-1'>Email </p>
-                                            <p className=' text-sm text-gray-800 mx-1'>{JobDetails?.user?.email}</p>
+                                            <p className=' text-sm text-black-800 mx-1'>{JobDetails?.user?.email}</p>
                                         </div>
                                     </div>
                                     <div className='md:px-4 mb-1 px-2 md:mx-2 flex flex-col items-start justify-center'>
                                         <div className='flex items-center justify-center mb-1'>
                                             <GoLocation className='text-xs font-semibold text-indigo-600' />
                                             <p className='font-semibold text-base mx-1'>Location </p>
-                                            <p className=' text-sm text-gray-800 mx-1'>Rawalipindi</p>
+                                            <p className=' text-sm text-black-800 mx-1'>Rawalipindi</p>
                                         </div>
                                         <div className='flex items-center justify-center mb-1'>
                                             <MdCategory className='text-xs font-semibold text-indigo-600' />
                                             <p className='font-semibold text-base mx-1'>Category </p>
-                                            <p className=' text-sm text-gray-800 mx-1'>{JobDetails?.job_category}</p>
+                                            <p className=' text-sm text-black-800 mx-1'>{JobDetails?.job_category}</p>
                                         </div>
                                     </div>
                                     <div className='md:px-4 mb-1 px-2 md:mx-2 flex flex-col items-start justify-center'>
                                         <div className='flex items-center justify-center mb-1'>
                                             <BsBriefcaseFill className='text-xs font-semibold text-indigo-600' />
                                             <p className='font-semibold text-base mx-1'>Job Type </p>
-                                            <p className='text-sm text-gray-800 mx-1'>{JobDetails?.job_type}</p>
+                                            <p className='text-sm text-black-800 mx-1'>{JobDetails?.job_type}</p>
                                         </div>
                                         <div className='flex items-center justify-center mb-1'>
                                             <AiOutlineDollarCircle className='text-xs font-semibold text-indigo-600' />
                                             <p className='font-semibold text-base mx-1'>Salary </p>
-                                            <p className=' text-sm text-gray-800 mx-1'>$ {JobDetails?.salary} </p>
+                                            <p className=' text-sm text-black-800 mx-1'>$ {JobDetails?.salary} </p>
                                         </div>
                                     </div>
                                     <div className='flex items-center justify-center'>
