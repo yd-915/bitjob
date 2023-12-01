@@ -28,7 +28,7 @@ export default function Intro() {
     <>
       <div className='w-full  h-full flex items-center lg:justify-start py-24 justify-center flex-wrap  '>
         <div className='lg:w-3/6 w-full sm:p-2 h-full my-2 flex items-center justify-center px-4 md:items-start md:justify-start md:p-20 flex-col '>
-          <h1 className='md:text-6xl text-2xl sm:text-2xl font-extrabold mb-4 text-white '>Sound Work. <span className='text-orange-600'>For Sound money.</span> </h1>
+          <h1 className='md:text-6xl text-2xl sm:text-2xl font-extrabold mb-4 text-black '>Sound Work. <span className='text-orange-600'>For Sound money.</span> </h1>
           <p className='md:text-lg sm:text-sm text-xs mb-20 text-white-400'>Advocate your freelance skills and get paid exclusively in BTC.</p>
           <div className='bg-white flex-col mb-6 w-full md:px-4   py-4 flex sm:flex-row items-center justify-center'>
             <BiSearchAlt className='text-2xl text-orange-600 mx-2 hidden sm:flex' />
