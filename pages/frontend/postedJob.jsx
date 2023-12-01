@@ -40,14 +40,14 @@ export default function PostedJobs() {
                 isLoading ? (
 
                     <div className='bg-gray w-full h-screen flex items-center flex-col justify-center'>
-                        <InfinitySpin width='200' color="#4f46e5" />
+                        <InfinitySpin width='200' color="#E55C46" />
                         <p className='text-xs uppercase'>Loading Resources Hold Tight...</p>
                     </div>
                 ) : (
                     <>
                         <NavBar />
                         <div className='w-full  pt-20'>
-                            <div className='w-full h-20 bg-gray-50 text-indigo-600 font-bold flex items-center justify-center flex-col'>
+                            <div className='w-full h-20 bg-gray-50 text-orange-600 font-bold flex items-center justify-center flex-col'>
                                 <h1 className='text-3xl'>Posted Jobs</h1>
                             </div>
                             <div className='w-full h-full px-4 py-4 flex  overflow-y-auto  items-start justify-center flex-wrap'>
