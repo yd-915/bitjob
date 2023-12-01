@@ -137,7 +137,7 @@ export default function JobDetails() {
                                     <div className='flex items-center justify-center'>
                                         {
                                             JobDetails?.user?.email === user?.email ? (
-                                                <p className='text-xs text-red-500'>unable Apply to your Own jobs</p>
+                                                <p className='text-xs text-red-500'>You can't apply to your own jobs</p>
                                             ) : (
                                                 <div className='flex items-center justify-center  '>
                                                     <BsFillBookmarkCheckFill onClick={handleBookMark} className='text-indigo-600 text-4xl cursor-pointer  mx-2'/>
