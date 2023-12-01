@@ -41,14 +41,14 @@ export default function ApplicationsDetail() {
             {
                 isLoading ? (
                     <div className='bg-gray w-full h-screen flex items-center flex-col justify-center'>
-                        <InfinitySpin width='200' color="#4f46e5" />
+                        <InfinitySpin width='200' color="#E55C46" />
                         <p className='text-xs uppercase'>Loading Resources Hold Tight...</p>
                     </div>
                 ) : (
                     <>
                         <NavBar />
                         <div className='w-full px-4 flex flex-wrap  pt-20 '>
-                            <div className='w-full h-32 bg-gray-50 text-indigo-600 font-bold flex items-center justify-center flex-col'>
+                            <div className='w-full h-32 bg-gray-50 text-orange-600 font-bold flex items-center justify-center flex-col'>
                                 <h1 className='text-3xl'>Application Detail</h1>
                             </div>
                             <div className='flex flex-col md:flex-row justify-center md:justify-around items-center w-full h-32 px-4'>
