@@ -190,7 +190,7 @@ export default function JobDetails() {
                                             return (
                                                 <div key={item?._id} className='md:w-96 w-full py-3 mx-4 my-2 flex items-center md:items-start px-6 justify-start md:justify-center flex-col rounded bg-gray-50'>
                                                     <div className='mb-4 flex px-4 flex-col md:flex-row items-center justify-start py-2 '>
-                                                        <Image width={70} height={70} className="flex rounded-full mb-4 md:mb-0" src={"https://xsgames.co/randomusers/avatar.php?g=male"} alt="no image" />
+                                                        <Image width={70} height={70} className="flex rounded-full mb-4 md:mb-0" src={"https://i.ibb.co/wwcBVdb/user2.png"} alt="no image" />
                                                         <div className='flex flex-col w-full mx-2 px-2'>
                                                             <h1 className='text-base md:text-left text-center  md:text-2xl font-semibold'>{item?.title}</h1>
                                                             <p className='text-xs md:text-left text-center sm:text-sm md:text-base text-gray-800'>{item?.company}</p>
